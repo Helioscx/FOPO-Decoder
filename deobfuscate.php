@@ -42,22 +42,14 @@ function deobf($phpcode){
 function getEvalCode($string){
 	preg_match("/eval\((.*?)\);/", $string, $matches);
 
-	if(empty($matches))
-		return '';
-
-
-	return $matches[1];
+	return (empty($matches)) ? '' : end($matches);
 }
 
 
 function getTextInsideQuotes($string){
-
 	preg_match('/("(.*?)")/', $string, $matches);
 
-	if(empty($matches))
-		return '';
-
-	return end($matches);
+	return (empty($matches)) ? '' : end($matches);
 
 }
 
