@@ -13,10 +13,10 @@
 
 if(!empty($_POST['php_code'])){
 
-	//	Submitted Code
+	// Submitted Code
 	$php = $_POST['php_code'];
 	
-	//	Deobfuscate
+	// Deobfuscate
 	$deobfCode = htmlspecialchars(deobf($php));
 
 }
