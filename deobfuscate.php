@@ -8,6 +8,7 @@
 * Github: https://github.com/Helioscx
 * Website: http://helioscx.com
 *
+* Live Example: http://helioscx.com/fopo/
 * Give credits where it's due.
 **/
 
