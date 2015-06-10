@@ -1,2 +1,3 @@
-# FOPO_Deobfuscator
-http://fopo.com.ar Deobfuscator
+# FOPO Deobfuscator
+
+A simple php deobfuscator for php scripts that have been obfuscated with http://fopo.com.ar
